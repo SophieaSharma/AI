@@ -55,7 +55,7 @@ class SimpleReflexVacuumAgent(Environment):
 
         elif vacuumLocation == 1:
             print "Vacuum is randomly placed at Location B. "
-            # and B is Dirty
+            # and B is Dirt
             if Environment.locationCondition['B'] == 1:
                 print "Location B is Dirty"
                 # suck and mark clean
